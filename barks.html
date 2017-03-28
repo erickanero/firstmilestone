@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Barks </title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="barks.css">
+</head>
+<body>
+	<header>
+		<div class="logo">
+		<a href="#Home"><img src="whitelogo.png" alt="logo"></a>
+		<h1> Barks</h1>
+		</div>
+		<ul>
+			<li><a href="#Home">Home</a></li>
+			<li><a href="#Pets">Pets</a></li>
+			<li><a href="#Services">Services</a></li>
+			<li><a href="#About">About Us</a></li>
+			<li><a href="#Contact">Contact Us!</a></li>
+		</ul>
+	</header>
+
+
+	<section id="Home">
+
+		<div class="w3-content w3-section">
+			<img class="mySlides" src="Photo/9.jpg">
+			<img class="mySlides" src="Photo/5.jpg"
+			<img class="mySlides" src="Photo/6.jpg">
+			<img class="mySlides" src="Photo/3.jpg">
+			<img class="mySlides" src="Photo/4.jpg">
+			<img class="mySlides" src="Photo/6.jpg">
+			
+			<img class="mySlides" src="Photo/8.jpg">
+			<img class="mySlides" src="Photo/9.jpg">
+
+		</div>
+		<script>
+			var myIndex = 0;
+			carousel();
+				function carousel() {
+					var i;
+					var x = document.getElementsByClassName("mySlides");
+					for (i = 0; i < x.length; i++) {
+						x[i].style.display = "none";
+						}
+					myIndex++;
+					if (myIndex > x.length) {myIndex = 1}
+					x[myIndex-1].style.display = "block";
+					setTimeout(carousel, 3000); // Change image every 2 seconds
+				}
+		</script>
+	</section>
+
+
+
+
+	<section id="Pets">
+		<h2> Gallery </h2>
+
+		<p class="pets2"> Free Shipping-applies to Standard Shipping only. Due to size and/or weight, certain items bear a shipping surcharge or special handling fee, which will still apply. <br><a id="bookmark-this" href="#" title="Bookmark This Page">Bookmark This Page</a> to keep you updated </p></p>
+			<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g1.jpg"> -->
+					<img src="Photo/g1.jpg" alt="Trolltunga Norway" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> German Sheperd
+				</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g2.jpg"> -->
+					<img src="Photo/g2.jpg" alt="Forest" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> Harrier
+				</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g3.jpg"> -->
+					<img src="Photo/g3.jpg" alt="Northern Lights" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> Dachshund
+				</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="img">
+				<a target="_blank" href="Photo/g4.jpg">
+					<img src="Photo/g4.jpg" alt="Mountains" width="600" height="400">
+				</a>
+				<div class="desc"> Labrador Retriever
+				</div>
+				</div>
+			</div>
+			
+
+		<div class="clearfix"></div>
+
+		<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g5.jpg"> -->
+					<img src="Photo/g5.jpg" alt="Trolltunga Norway" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> Beagle
+				</div>
+				</div>
+			</div>
+
+
+			<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g6.jpg"> -->
+					<img src="Photo/g6.jpg" alt="Forest" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> Golden Retriever
+				</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="img">
+				<!-- <a target="_blank" href="Photo/g7.jpg"> -->
+					<img src="Photo/g7.jpg" alt="Northern Lights" width="200" height="100">
+				<!-- </a> -->
+				<div class="desc"> Dogue de Bordeaux
+				</div>
+				</div>
+			</div>
+
+			<div class="responsive">
+				<div class="img">
+				<a target="_blank" href="Photo/g8.jpg">
+					<img src="Photo/g8.jpg" alt="Mountains" width="600" height="400">
+				</a>
+				<div class="desc"> English Bulldog
+				</div>
+				</div>
+			</div>
+			
+
+		<div class="clearfix"></div>
+<hr>
+		
+
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="Services">
+		<h2> What We do? </h2>
+		<div class="Services">
+			<h3> Our Products </h3>
+			<p> Barks Pet Shop specializes in healthy pet food for your dogs, cats, small animals, wild birds and chickens.
+			</p>
+			<h4> Available healthy pet food preparations: </h4>
+			<ul>
+				<li class="Dry"> <a> <img src="Photo/Dry.png"> Dry </a></li>
+				<li class="Canned"> <a> <img src="Photo/Canned.png"> Canned </a> </li>
+				<li class="Freeze">  <a><img src="Photo/Freeze.png"> Freeze Dried </a> </li>
+				<li class="Raw"> <a> <img src="Photo/Raw.png"> Raw </a> </li>
+			</ul>
+
+			<h4> Pet Supplies and Accessories: </h4>
+			<ul>
+				<li class="Grooming"> <a> <img src="Photo/Grooming.png"> Grooming </a></li>
+				<li class="Clothes"> <a> <img src="Photo/Clothes.png"> Clothes </a> </li>
+				<li class="Treat">  <a><img src="Photo/treatandtoys.png"> Treat and Toys </a> </li>
+				<li class="PetSupplements"> <a> <img src="Photo/petsupplements.png"> Pet Supplements </a> </li>
+			</ul>
+			<br>
+
+			<img src="Photo/vet.png" alt="vet" width="250px">
+				<p class="nd"> We are proud to offer vaccines from the safest manufacturers for your pets. We utilize the most up-to-date methods of administration to minimize the risk of vaccine reactions. We also offer preventative screenings for heartworms, fecal parasites and common old-age illnesses for pets over 7 years old. <a href="#" id="link">see more...</a></p>
+			<div class="clearfix"></div>
+		</div>
+
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section id="About">
+		<div>
+			<h2> All About Barks </h2>
+		</div>
+		<table>
+			<tr>
+				<td  class="about1"><p>Barks remains to be the largest pet supply retail superstore for dogs in the country. It is a one-stop shop for pet needs and more. It has a fantastic selection of pet products, including food, grooming tools, toys, cages and more. It has a wide assortment of brands, carrying both local and imported pet products. It offers modern, spacious and clean salon facility for pet grooming and trained professional groomers. Barks also sells a different breed of dogs.</p></td>
+				<td> <img src="Photo/aboutus1.png" alt="Aboutusphoto"></td> 
+			</tr>
+			<tr class="about2">
+				<td><img src="Photo/aboutus2.png" alt="Aboutusphoto2"></td> 
+				<td><p>Barks also offers quality veterinary services provided no less than by licensed veterinarians certified by the Philippine Veterinary Medical Association. Aside from this, Barks has its own pharmacy for your pets' medical needs. Moreover, dog training classes are also made available to pet guardians who want to improve interaction between them and their pets. </p></td>
+			</tr>
+		</table>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<section id="Contact">
+		<div class="left">
+			<h2> Connect With Us </h2>
+			<p> Follow us to see our pet updates, pet news, barks' new products, <br> barks' promos and MORE! </p>
+		<div class="pics"> 
+			<img src="http://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook">
+			<img src="http://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter">
+			<img src="http://image.flaticon.com/icons/svg/145/145811.svg" alt="tumblr">
+			<img src="http://image.flaticon.com/icons/svg/145/145804.svg" alt="google">
+			<img src="http://image.flaticon.com/icons/svg/145/145808.svg" alt="pinterest">
+		</div>
+		
+
+			<a href="https://www.google.com/maps?ll=14.635573,121.037583&z=16&t=m&hl=en-US&gl=PH&mapclient=embed&q=49+Sct.+Torillo+St+Diliman,+Quezon+City+1103+Metro+Manila"><img src="QuezonCity.jpg" alt="QuezonCity" id="QuezonCity" onmouseover="this.src='Quezon.jpg';" onmouseout="this.src='QuezonCity.jpg';"></a>
+	
+	</div>
+	<div class="clearfix"></div>
+	<div class="right">
+		<form>
+			<fieldset>
+					<h3> Have a question? </h3>
+					<p> Get in touch! </p>
+					<span class="p">Full Name:<br></span> 
+					<input type="text" name="fullname" required> <br>
+					<span class="p">E-mail: <br></span>
+					<input type="email" name="email" autocomplete="off" required> <br>
+					<span class="p">Subject: <br></span>
+					<input type="text" name="subject" ><br>
+					<span class="p">Message: <br></span>
+					<textarea name="message" rows="4	" cols="20"> </textarea>
+					<span class="p">Do you want to hear from us? </span>
+					<input type="radio" name="gender" value="male" checked> <span class="p">Yes</span>
+					<input type="radio" name="gender" value="female"> <span class="p">No<br></span>
+					<br> <br>
+					<input type="submit" onclick="alert('Thank You!')">
+			</fieldset>
+		</form>
+	</div>
+	<div class="clearfix"></div>
+	</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+		<p>Copyright &copy; 2016 BarksPH 2016. All rights reserved | Design by Erick Anero</p>
+
+		<!-- <div class="pics"> 
+			<img src="http://image.flaticon.com/icons/svg/145/145802.svg" alt="facebook"> 
+			<img src="http://image.flaticon.com/icons/svg/145/145812.svg" alt="twitter">
+			<img src="http://image.flaticon.com/icons/svg/145/145811.svg" alt="tumblr">
+			<img src="http://image.flaticon.com/icons/svg/145/145804.svg" alt="google">
+			<img src="http://image.flaticon.com/icons/svg/145/145808.svg" alt="pinterest">
+		</div> -->
+	</footer>
+
+
+
+
+
+</body>
+</html>
